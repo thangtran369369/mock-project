@@ -1,4 +1,4 @@
-package com.smartphone.shop;
+package com.smartphone;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -16,7 +16,7 @@ public class ShopSmartphoneApplication {
 	
 	@GetMapping("/home")
 	public String home() {
-		return "web/home";
+		return "web/home";		
 	}
 	
 	@GetMapping("/product-details")
