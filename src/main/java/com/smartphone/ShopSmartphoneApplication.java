@@ -16,18 +16,18 @@ public class ShopSmartphoneApplication {
 	
 	@GetMapping("/home")
 	public String home() {
-		return "web/home";		
+		return "home";		
 	}
 	
 	@GetMapping("/product-details")
 	public String product() {
-		return "web/product-details";
+		return "product-details";
 	}
 	
 	
 	@GetMapping("/login")
 	public String login() {
-		return "web/login";
+		return "login";
 	}
 	
 
